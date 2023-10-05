@@ -109,7 +109,7 @@ a.custom-menu-list span.icon{
 		<div class="row">
 			<div class="card col-md-12">
 				<div class="card-body">
-					<table width="100%">
+					<table width="100%" class="table table-responsive">
 						<tr>
 							<th width="40%" class="">Filename</th>
 							<th width="20%" class="">Date</th>

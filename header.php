@@ -1,6 +1,8 @@
 <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
+  <link rel="icon" type="image/x-icon" href="assets/img/folder-app.svg">
+
 
 
   <!-- Google Fonts -->
