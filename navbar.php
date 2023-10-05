@@ -1,7 +1,7 @@
 
  <nav id="sidebar" class='mx-lt-5 nav-bar' >
  <div class="flex-shrink-0 p-3 bg-white">
-    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+    <a href="index.php?page=home" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
       <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
       <span class="fs-5 fw-semibold">File Structures</span>
     </a>

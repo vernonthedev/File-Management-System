@@ -1,22 +1,24 @@
-<?php 
+<?php
 
 ?>
 
 <div class="container-fluid">
-	
+
 	<div class="row">
-	<div class="col-lg-12">
-			<button class="btn btn-primary float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New user</button>
-	</div>
+		<div class="col-lg-12">
+				<button class="btn btn-primary float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New user</button>
+		</div>
 	</div>
 	<br>
+	<div class="container">
+	<h5 class="card-title mb-4" style="font-weight: bold; font-size: 30px;">Registered Users</h5>
 	<div class="row">
-		<div class="card col-lg-12">
+		<div class="card ">
 			<div class="card-body">
-				<table class="table-striped table-bordered col-md-12">
+				<table class="col-lg-12 table table-striped table-borderedless table-responsive">
 			<thead>
 				<tr>
-					<th class="text-center">#</th>
+					<th class="text-center">ID</th>
 					<th class="text-center">Name</th>
 					<th class="text-center">Username</th>
 					<th class="text-center">Action</th>
@@ -61,10 +63,11 @@
 			</div>
 		</div>
 	</div>
+	</div>
 
 </div>
 <script>
-	
+
 $('#new_user').click(function(){
 	uni_modal('New User','manage_user.php')
 })

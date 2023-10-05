@@ -30,7 +30,7 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-start mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-dark text-white">File View</a></li>
+          <li><a href="index.php?page=files" class="nav-link px-2 link-dark text-white">File View</a></li>
         </ul>
 
         <div class="dropdown text-end">

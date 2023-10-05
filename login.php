@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Admin | Blog Site</title>
- 	
+  <title>Meditch Mavericks</title>
+
 
 <?php include('./header.php'); ?>
-<?php 
+<?php
 session_start();
 if(isset($_SESSION['login_id']))
 header("location:index.php?page=home");
@@ -60,34 +60,35 @@ header("location:index.php?page=home");
 
 <body>
 
-
+<div class="container">
   <main id="main" class=" alert-info">
   		<div id="login-left">
-  			<div class="logo">
+  			<div class="logo img-fluid">
   				<i class="fa fa-share-alt"></i>
   			</div>
   		</div>
   		<div id="login-right">
-  			<div class="card col-md-8">
+  			<div class="card col-md-8 bg-light">
   				<div class="card-body">
+					<center><h3 class="card-title">Meditech Mavericks</h3></center>
   					<form id="login-form" >
   						<div class="form-group">
   							<label for="username" class="control-label">Username</label>
-  							<input type="text" id="username" name="username" class="form-control">
+  							<input type="text" id="username" name="username" class="form-control" placeholder="Enter Username">
   						</div>
   						<div class="form-group">
   							<label for="password" class="control-label">Password</label>
-  							<input type="password" id="password" name="password" class="form-control">
+  							<input type="password" id="password" name="password" class="form-control" placeholder="Enter Password">
   						</div>
   						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
   					</form>
   				</div>
   			</div>
   		</div>
-   
+
 
   </main>
-
+  </div>
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
 
@@ -117,5 +118,5 @@ header("location:index.php?page=home");
 			}
 		})
 	})
-</script>	
+</script>
 </html>

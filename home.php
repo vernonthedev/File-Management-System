@@ -45,7 +45,7 @@ a.custom-menu-list span.icon{
 		<div class="col-lg-12">
 			<div class="card col-md-4 bg-info float-left mb-3">
 				<div class="card-body text-white">
-					<h4><b>Users</b></h4>
+					<h4><b>Available Users</b></h4>
 					<hr>
 					<span class="card-icon"><i class="fa fa-users"></i></span>
 					<h3 class="text-right"><b><?php echo $conn->query('SELECT * FROM users')->num_rows ?></b></h3>
@@ -54,7 +54,7 @@ a.custom-menu-list span.icon{
 
 			<div class="card col-md-4 bg-primary ml-4 float-left">
 				<div class="card-body text-white">
-					<h4><b>Files</b></h4>
+					<h4><b>Uploaded Files</b></h4>
 					<hr>
 					<span class="card-icon"><i class="fa fa-file"></i></span>
 					<h3 class="text-right"><b><?php echo $conn->query('SELECT * FROM files')->num_rows ?></b></h3>
@@ -67,6 +67,7 @@ a.custom-menu-list span.icon{
 	<div class="row mt-3 ml-3 mr-3">
 			<div class="card col-md-12">
 				<div class="card-body">
+					<h5 class="card-title" style="font-weight: bold;">All Uploaded Files</h5>
 					<table width="100%" class="table table-responsive">
 						<tr>
 							<th width="20%" class="">Uploader</th>

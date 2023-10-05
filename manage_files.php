@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('db_connect.php');
 if(isset($_GET['id'])){
 $qry = $conn->query("SELECT * FROM files where id=".$_GET['id']);
@@ -13,10 +13,10 @@ $qry = $conn->query("SELECT * FROM files where id=".$_GET['id']);
 	<form action="" id="manage-files">
 		<input type="hidden" name="id" value="<?php echo isset($_GET['id']) ? $_GET['id'] :'' ?>">
 		<input type="hidden" name="folder_id" value="<?php echo isset($_GET['fid']) ? $_GET['fid'] :'' ?>">
-		<!-- <div class="form-group">
+		<div class="form-group">
 			<label for="name" class="control-label">File Name</label>
 			<input type="text" name="name" id="name" value="<?php echo isset($meta['name']) ? $meta['name'] :'' ?>" class="form-control">
-		</div> -->
+		</div>
 		<?php if(!isset($_GET['id']) || empty($_GET['id'])): ?>
 		<div class="input-group mb-3">
 		  <div class="input-group-prepend">
@@ -75,7 +75,7 @@ $qry = $conn->query("SELECT * FROM files where id=".$_GET['id']);
 			        var reader = new FileReader();
 			        reader.onload = function (e) {
             			_this.siblings('label').html(input.files[0]['name'])
-			            
+
 			        }
 
 			        reader.readAsDataURL(input.files[0]);
