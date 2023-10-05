@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+ <img src="https://github.com/vernonthedev/File-Management-System/assets/108737724/a5c0c0e3-0f4f-4ab9-9bf6-c256ff2efd86" width="300px" />
 </div>
 
 <div id="badges" align="center">
@@ -11,15 +11,15 @@
   </a>
   <a href="https://twitter.com/vernonthedev">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
+  </a><br>
+  <img src="https://komarev.com/ghpvc/?username=vernonthedev&style=flat-square&color=blue" alt=""/>
 </div>
 
-<img src="https://komarev.com/ghpvc/?username=vernonthedev&style=flat-square&color=blue" alt=""/>
 
-<h1>
-  Hey There! Welcome to my repo.
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+
+
+
+
 
 # File-Management-System
 File Management System that allows users upload all file types and arranges them in folders, for both group and personal viewing all managed by the admin.
