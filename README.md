@@ -14,6 +14,13 @@
   </a>
 </div>
 
+<img src="https://komarev.com/ghpvc/?username=vernonthedev&style=flat-square&color=blue" alt=""/>
+
+<h1>
+  Hey There! Welcome to my repo.
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
+
 # File-Management-System
 File Management System that allows users upload all file types and arranges them in folders, for both group and personal viewing all managed by the admin.
 
