@@ -19,22 +19,6 @@
 
 </style>
 
-<!-- <nav class="navbar navbar-dark bg-dark fixed-top " style="padding:0;">
-  <div class="container-fluid mt-2 mb-2">
-  	<div class="col-lg-12">
-  		<div class="col-md-1 float-left" style="display: flex;">
-  			<div class="logo">
-  				<i class="fa fa-share-alt"></i>
-  			</div>
-  		</div>
-	  	<div class="col-md-2 float-right">
-	  		<a href="ajax.php?action=logout"> <i class="fa fa-power-off"></i></a>
-	    </div>
-    </div>
-  </div>
-
-</nav> -->
-
 
 
 <header class="p-3 mb-3 bg-dark sticky-top">

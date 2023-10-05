@@ -1,9 +1,3 @@
-<style>
-
-</style>
-
-
-
 
  <nav id="sidebar" class='mx-lt-5 nav-bar' >
  <div class="flex-shrink-0 p-3 bg-white">
@@ -14,33 +8,21 @@
     <ul class="list-unstyled ps-0">
 	<li class="mb-1">
         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-          Overrview
+		<i class="bi bi-chevron-double-down"></i>Overrview
         </button>
         <div class="collapse" id="home-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="index.php?page=home" class="link-dark d-inline-flex text-decoration-none rounded">Home</a></li>
+            <li><a href="index.php?page=home" class="link-dark text-decoration-none rounded"><i class="bi bi-house-fill"></i> Home</a></li>
           </ul>
         </div>
       </li>
       <li class="mb-1">
         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-          Folders
+		<i class="bi bi-chevron-double-down"></i> Folders
         </button>
         <div class="collapse" id="dashboard-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="index.php?page=files" class="link-dark d-inline-flex text-decoration-none rounded">Uploaded Files</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-        </button>
-        <div class="collapse" id="orders-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+            <li><a href="index.php?page=files" class="link-dark text-decoration-none rounded"><i class="bi bi-archive-fill"></i> Uploaded Files</a></li>
           </ul>
         </div>
       </li>
@@ -48,11 +30,11 @@
 	  <?php if($_SESSION['login_type'] == 1): ?>
       <li class="mb-1">
         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-          Manage Users
+		<i class="bi bi-chevron-double-down"></i> Manage Users
         </button>
         <div class="collapse" id="account-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="index.php?page=users" class="link-dark d-inline-flex text-decoration-none rounded">Users</a></li>
+            <li><a href="index.php?page=users" class="link-dark text-decoration-none rounded"><i class="bi bi-people-fill"></i> Users</a></li>
           </ul>
         </div>
       </li>
