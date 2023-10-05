@@ -1,0 +1,86 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\vernonthedev\Documents\File Logger.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\vernonthedev\Documents\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Android\build-tools\30.0.3;C:\Android\cmdline-tools\latest\bin;C:\Android\emulator;C:\Android\platform-tools;C:\Android\tools\bin;C:\gradle\gradle-7.5.1\bin;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\;C:\Users\vernonthedev\AppData\Local\Microsoft\WindowsApps;c:\users\vernonthedev\.local\bin;c:\users\vernonthedev\appdata\roaming\python\python311\scripts;C:\Users\vernonthedev\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin;;C:\Program Files\Java\jdk-18.0.1.1\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Android\build-tools\30.0.3;C:\Android\cmdline-tools\latest\bin;C:\Android\emulator;C:\Android\platform-tools;C:\Android\tools\bin;C:\gradle\gradle-7.5.1\bin;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\;C:\Users\vernonthedev\AppData\Local\Microsoft\WindowsApps;c:\users\vernonthedev\.local\bin;c:\users\vernonthedev\appdata\roaming\python\python311\scripts;C:\Users\vernonthedev\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin;;C:\Program Files\Java\jdk-18.0.1.1\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Android\build-tools\30.0.3\bin\javaw.exe (not found)
+Check launcher:	C:\Android\cmdline-tools\latest\bin\javaw.exe (not found)
+Check launcher:	C:\Android\emulator\bin\javaw.exe (not found)
+Check launcher:	C:\Android\platform-tools\bin\javaw.exe (not found)
+Check launcher:	C:\Android\tools\bin\javaw.exe (not found)
+Check launcher:	C:\gradle\gradle-7.5.1\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	c:\users\vernonthedev\.local\bin\javaw.exe (not found)
+Check launcher:	c:\users\vernonthedev\appdata\roaming\python\python311\scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (OK)
+Warning:	formatJavaVersion() too many parts added.
+Version string: 1.018.000_001 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe
+Launcher args:	-jar "C:\Users\vernonthedev\Documents\File Logger.exe"
+Args length:	54/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\vernonthedev\Documents\File Logger.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\vernonthedev\Documents\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Android\build-tools\30.0.3;C:\Android\cmdline-tools\latest\bin;C:\Android\emulator;C:\Android\platform-tools;C:\Android\tools\bin;C:\gradle\gradle-7.5.1\bin;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\;C:\Users\vernonthedev\AppData\Local\Microsoft\WindowsApps;c:\users\vernonthedev\.local\bin;c:\users\vernonthedev\appdata\roaming\python\python311\scripts;C:\Users\vernonthedev\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin;;C:\Program Files\Java\jdk-18.0.1.1\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Android\build-tools\30.0.3;C:\Android\cmdline-tools\latest\bin;C:\Android\emulator;C:\Android\platform-tools;C:\Android\tools\bin;C:\gradle\gradle-7.5.1\bin;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\;C:\Users\vernonthedev\AppData\Local\Microsoft\WindowsApps;c:\users\vernonthedev\.local\bin;c:\users\vernonthedev\appdata\roaming\python\python311\scripts;C:\Users\vernonthedev\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin;;C:\Program Files\Java\jdk-18.0.1.1\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Android\build-tools\30.0.3\bin\javaw.exe (not found)
+Check launcher:	C:\Android\cmdline-tools\latest\bin\javaw.exe (not found)
+Check launcher:	C:\Android\emulator\bin\javaw.exe (not found)
+Check launcher:	C:\Android\platform-tools\bin\javaw.exe (not found)
+Check launcher:	C:\Android\tools\bin\javaw.exe (not found)
+Check launcher:	C:\gradle\gradle-7.5.1\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Local\Programs\Python\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	c:\users\vernonthedev\.local\bin\javaw.exe (not found)
+Check launcher:	c:\users\vernonthedev\appdata\roaming\python\python311\scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\vernonthedev\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe (OK)
+Warning:	formatJavaVersion() too many parts added.
+Version string: 1.018.000_001 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-18.0.1.1\bin\javaw.exe
+Launcher args:	-jar "C:\Users\vernonthedev\Documents\File Logger.exe"
+Args length:	54/32768 chars
+Exit code:	0

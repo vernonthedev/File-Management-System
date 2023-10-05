@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'db_connect.php';
 $folder_parent = isset($_GET['fid'])? $_GET['fid'] : 0;
 $folders = $conn->query("SELECT * FROM folders where parent_id = $folder_parent and user_id = '".$_SESSION['login_id']."'  order by name asc");
@@ -39,9 +39,7 @@ a.custom-menu-list {
 a.custom-menu-list:hover,.file-item:hover,.file-item.active {
     background: #80808024;
 }
-table th,td{
-	/*border-left:1px solid gray;*/
-}
+
 a.custom-menu-list span.icon{
 		width:1em;
 		margin-right: 5px
@@ -54,7 +52,7 @@ a.custom-menu-list span.icon{
 			<div class="card col-lg-12">
 				<div class="card-body" id="paths">
 				<!-- <a href="index.php?page=files" class="">..</a>/ -->
-				<?php 
+				<?php
 				$id=$folder_parent;
 				while($id > 0){
 
@@ -69,33 +67,35 @@ a.custom-menu-list span.icon{
 						$("#paths").prepend("<a href=\"index.php?page=files\">..</a>/")
 					</script>';
 				?>
-					
+
 				</div>
 			</div>
 		</div>
 
-		<div class="row">
-			<button class="btn btn-primary btn-sm" id="new_folder"><i class="fa fa-plus"></i> New Folder</button>
-			<button class="btn btn-primary btn-sm ml-4" id="new_file"><i class="fa fa-upload"></i> Upload File</button>
+		<div class="row float-right mr-5 mt-5">
+			<button class="btn btn-primary btn-sm ml-4 text-end" id="new_file"><i class="fa fa-upload"></i> Upload File</button>
 		</div>
 		<hr>
+
+		<div class="row">
+			<div class="col-md-12"><h4><b>Folders</b></h4></div>
+			<button class="btn btn-primary btn-sm col-md-2" id="new_folder"><i class="fa fa-plus"></i> New Folder</button>
+		</div>
 		<div class="row">
 			<div class="col-lg-12">
 			<div class="col-md-4 input-group offset-4">
-				
-  				<input type="text" class="form-control" id="search" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+
+  				<input type="text" class="form-control" id="search" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Search Folder Name">
   				<div class="input-group-append">
    					 <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fa fa-search"></i></span>
   				</div>
 			</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12"><h4><b>Folders</b></h4></div>
-		</div>
 		<hr>
 		<div class="row">
-			<?php 
+
+			<?php
 			while($row=$folders->fetch_assoc()):
 			?>
 				<div class="card col-md-3 mt-2 ml-2 mr-2 mb-2 folder-item" data-id="<?php echo $row['id'] ?>">
@@ -115,7 +115,7 @@ a.custom-menu-list span.icon{
 							<th width="20%" class="">Date</th>
 							<th width="40%" class="">Description</th>
 						</tr>
-						<?php 
+						<?php
 					while($row=$files->fetch_assoc()):
 						$name = explode(' ||',$row['name']);
 						$name = isset($name[1]) ? $name[0] ." (".$name[1].").".$row['file_type'] : $name[0] .".".$row['file_type'];
@@ -143,13 +143,13 @@ a.custom-menu-list span.icon{
 							<td><i class="to_file"><?php echo date('Y/m/d h:i A',strtotime($row['date_updated'])) ?></i></td>
 							<td><i class="to_file"><?php echo $row['description'] ?></i></td>
 						</tr>
-							
+
 					<?php endwhile; ?>
 					</table>
-					
+
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </div>
@@ -164,7 +164,7 @@ a.custom-menu-list span.icon{
 </div>
 
 <script>
-	
+
 	$('#new_folder').click(function(){
 		uni_modal('','manage_folder.php?fid=<?php echo $folder_parent ?>')
 	})
@@ -174,7 +174,7 @@ a.custom-menu-list span.icon{
 	$('.folder-item').dblclick(function(){
 		location.href = 'index.php?page=files&fid='+$(this).attr('data-id')
 	})
-	$('.folder-item').bind("contextmenu", function(event) { 
+	$('.folder-item').bind("contextmenu", function(event) {
     event.preventDefault();
     $("div.custom-menu").hide();
     var custom =$("<div class='custom-menu'></div>")
@@ -195,7 +195,7 @@ a.custom-menu-list span.icon{
 })
 
 	//FILE
-	$('.file-item').bind("contextmenu", function(event) { 
+	$('.file-item').bind("contextmenu", function(event) {
     event.preventDefault();
 
     $('.file-item').removeClass('active')
@@ -279,7 +279,7 @@ a.custom-menu-list span.icon{
 					else
 					$(this).closest('.card').toggle(false);
 
-				
+
 			})
 			$('.to_file').each(function(){
 				var val  = $(this).text().toLowerCase()
@@ -288,7 +288,7 @@ a.custom-menu-list span.icon{
 					else
 					$(this).closest('tr').toggle(false);
 
-				
+
 			})
 		})
 	})

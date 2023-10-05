@@ -35,14 +35,15 @@ a.custom-menu-list span.icon{
 }
 </style>
 
-<div class="containe-fluid">
+<div class="container-fluid">
 	<?php include('db_connect.php') ;
 	$files = $conn->query("SELECT f.*,u.name as uname FROM files f inner join users u on u.id = f.user_id where  f.is_public = 1 order by date(f.date_updated) desc");
 
 	?>
+	<div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<div class="card col-md-4 offset-2 bg-info float-left">
+			<div class="card col-md-4 bg-info float-left mb-3">
 				<div class="card-body text-white">
 					<h4><b>Users</b></h4>
 					<hr>
@@ -50,7 +51,8 @@ a.custom-menu-list span.icon{
 					<h3 class="text-right"><b><?php echo $conn->query('SELECT * FROM users')->num_rows ?></b></h3>
 				</div>
 			</div>
-			<div class="card col-md-4 offset-2 bg-primary ml-4 float-left">
+
+			<div class="card col-md-4 bg-primary ml-4 float-left">
 				<div class="card-body text-white">
 					<h4><b>Files</b></h4>
 					<hr>
@@ -60,11 +62,12 @@ a.custom-menu-list span.icon{
 			</div>
 		</div>
 	</div>
-
+	</div>
+<div class="container">
 	<div class="row mt-3 ml-3 mr-3">
 			<div class="card col-md-12">
 				<div class="card-body">
-					<table width="100%">
+					<table width="100%" class="table table-responsive">
 						<tr>
 							<th width="20%" class="">Uploader</th>
 							<th width="30%" class="">Filename</th>
@@ -109,7 +112,7 @@ a.custom-menu-list span.icon{
 
 		</div>
 	</div>
-
+	</div>
 </div>
 <div id="menu-file-clone" style="display: none;">
 	<a href="javascript:void(0)" class="custom-menu-list file-option download"><span><i class="fa fa-download"></i> </span>Download</a>
