@@ -1638,7 +1638,7 @@ a.nav-item:hover, .nav-item.active {
     color: #5d5d5d;
 }
 main#view-panel{
-  margin-left: 250px; 
+  margin-left: 250px;
   width:calc(100% - 250px);
   margin-top: 3.5rem;
   padding: .5em
@@ -1678,4 +1678,53 @@ span.stat-icons {
     font-size: 3em;
     bottom: 0;
     color: #0000005c;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+
+  /* Header styles for smaller screens */
+  #header {
+    padding: 10px 0; /* Adjust header padding for smaller screens */
+  }
+
+  #header .logo {
+    font-size: 24px; /* Reduce logo font size for smaller screens */
+  }
+
+  .nav-menu ul {
+    flex-direction: column; /* Stack menu items vertically for smaller screens */
+  }
+
+  .nav-menu > ul > li {
+    padding: 5px 0; /* Adjust menu item padding for smaller screens */
+  }
+
+  .appointment-btn {
+    margin: 0; /* Remove margin for the "Get Started" button */
+  }
+
+  /* Hero section styles for smaller screens */
+  #hero h1 {
+    font-size: 28px; /* Reduce heading font size for smaller screens */
+  }
+
+  #hero h2 {
+    font-size: 18px; /* Reduce subheading font size for smaller screens */
+  }
+
+  /* Other responsive adjustments as needed */
+}
+
+/* Styles for screens between 768px and 992px wide */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Make additional responsive adjustments here */
+}
+
+/* Styles for screens above 992px wide */
+@media (min-width: 992px) {
+  /* Make additional responsive adjustments here */
 }

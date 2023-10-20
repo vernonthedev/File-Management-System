@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+
   <title>Meditch Mavericks</title>
 
 
@@ -22,29 +23,34 @@ header("location:index.php?page=home");
 	    height: calc(100%);
 	    /*background: #007bff;*/
 	}
+	#main {
+  display: flex;
+}
 	main#main{
 		width:100%;
 		height: calc(100%);
 		background:white;
 	}
-	#login-right{
-		position: absolute;
-		right:0;
-		width:40%;
-		height: calc(100%);
-		background:white;
-		display: flex;
-		align-items: center;
-	}
-	#login-left{
-		position: absolute;
-		left:0;
-		width:60%;
-		height: calc(100%);
-		background:#00000061;
-		display: flex;
-		align-items: center;
-	}
+	#login-right {
+  position: absolute;
+  right: 0;
+  width: 60%; /* Adjust this width as needed */
+  height: calc(100%);
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+#login-left {
+  position: absolute;
+  left: 0;
+  width: 40%; /* Adjust this width as needed */
+  height: calc(100%);
+  background: #00000061;
+  display: flex;
+  align-items: center;
+}
+
 	#login-right .card{
 		margin: auto
 	}
@@ -55,6 +61,31 @@ header("location:index.php?page=home");
     padding: .5em 0.8em;
     border-radius: 50% 50%;
     color: #000000b3;
+}
+
+#login-left {
+  width: 60%;
+}
+
+#login-right {
+  width: 40%;
+}
+
+/* Media query for smaller screens, such as mobile devices */
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  #login-left {
+    width: 100%; /* Take up the full width */
+    order: 2; /* Display on the bottom */
+  }
+
+  #login-right {
+    width: 100%; /* Take up the full width */
+    order: 1; /* Display on the top */
+  }
 }
 </style>
 
